@@ -1,0 +1,31 @@
+{
+  "name": "links-validation-with-regex",
+  "version": "1.0.0",
+  "description": "para executar precisa utilizar o comando npm run cli 'caminho do arquivo', para validar adicionar 'valida' em seguida.",
+  "main": "./cli.js",
+  "type": "module",
+  "bin": {
+    "<links-validation-with-regex>": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anderson-Rodrigo-Dev/links-validation-with-regex"
+  },
+  "keywords": [],
+  "author": "Anderson Rodrigo <andersonrodrigodev@gmail.com> (https://anderson-rodrigo-dev.github.io/portifolio/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anderson-Rodrigo-Dev/links-validation-with-regex/issues",
+    "email": "andersonrodrigodev@gmail.com"
+  },
+  "homepage": "https://github.com/Anderson-Rodrigo-Dev/links-validation-with-regex",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
